@@ -20,7 +20,7 @@ if ($checker->isDisposable($email)) {
 }
 ```
 or
-```
+```csharp
 public bool IsDisposableEmail(string email)
 {
     if (string.IsNullOrWhiteSpace(email)) return false;
